@@ -2,14 +2,18 @@ package playground
 
 import "testing"
 
-func TestSumEmptyStringReturns0(t *testing.T) {
-	if SumOf("") != 0 {
-		t.Error(`sum of "" should be 0`)
+func TestStringCalculator(t *testing.T) {
+	var tests = []struct {
+		input    string
+		expected int
+	}{
+		{"", 0},
+		{"1", 1},
+		{"1,2", 3},
 	}
-}
-
-func TestSumOfSingleNumberReturnInt(t *testing.T) {
-	if SumOf("1") != 1 {
-		t.Error(`sum of "1" should be 1`)
+	for _, test := range tests {
+		if sum := SumOf(test.input); sum != test.expected {
+			t.Errorf("SumOf(%q) = %d (expected %d)", test.input, sum, test.expected)
+		}
 	}
 }
