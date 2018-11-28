@@ -10,6 +10,8 @@ func TestStringCalculator(t *testing.T) {
 		{"", 0},
 		{"1", 1},
 		{"1,2", 3},
+		{"1,2,3", 6},
+		{"1\n2,3", 6},
 	}
 	for _, test := range tests {
 		if sum := SumOf(test.input); sum != test.expected {

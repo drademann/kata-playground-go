@@ -1,12 +1,29 @@
 package playground
 
-import "strconv"
+import (
+	"regexp"
+	"strconv"
+)
+
+var splitter = regexp.MustCompile("[,\n]")
 
 // SumOf returns the sum of the numbers contained in a string.
 func SumOf(input string) int {
 	if input == "" {
 		return 0
 	}
-	i, _ := strconv.Atoi(input)
-	return i
+	return sumOf(splitted(input))
+}
+
+func splitted(input string) []string {
+	return splitter.Split(input, -1)
+}
+
+func sumOf(input []string) int {
+	sum := 0
+	for _, s := range input {
+		n, _ := strconv.Atoi(s)
+		sum += n
+	}
+	return sum
 }
