@@ -1,4 +1,4 @@
-# kata-playground
+# kata-playground-go
 This is a project setup to quickly get started with various Coding Katas using [Go](https://golang.org).
 
 Currently the following Katas are included:
