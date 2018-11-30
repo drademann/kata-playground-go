@@ -1,11 +1,12 @@
-package playground
+// Package stringcalculator calculates the sum of numbers contained in a string.
+package stringcalculator
 
 import (
 	"regexp"
 	"strconv"
 )
 
-var splitter = regexp.MustCompile("[,\n]")
+var splitter = regexp.MustCompile(`[,\n]`)
 
 // SumOf returns the sum of the numbers contained in a string.
 func SumOf(input string) int {
