@@ -10,3 +10,4 @@ Use TDD, test driven development, to invent your solution to the problem:
 ## Content
 
 - [String Calculator](stringcalculator/KATA.md) by Roy Osherove
+- [Prime Factors](primefactors/KATA.md) by Robert Martin

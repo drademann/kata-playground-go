@@ -12,9 +12,9 @@ __Remember__:
 
 ## Task
 
-Provide the following method
+Provide the following function
 
-    int Add(string numbers)
+    Add(numbers string) int
 
 ## Requirements
 
