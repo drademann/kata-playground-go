@@ -2,6 +2,6 @@ package stringcalculator
 
 import "testing"
 
-func TestAdd_(t *testing.T) {
+func TestAdd(t *testing.T) {
 
 }
