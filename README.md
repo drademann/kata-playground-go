@@ -12,3 +12,4 @@ Use TDD, test driven development, to invent your solution to the problem:
 - [Hello](hello/KATA.md) from codingdojo.org
 - [String Calculator](stringcalculator/KATA.md) by Roy Osherove
 - [Prime Factors](primefactors/KATA.md) by Robert Martin
+- [Roman Numerals](roman/KATA.md) from codingdojo.org
