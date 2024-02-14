@@ -2,6 +2,6 @@ package primefactors
 
 import "testing"
 
-func TestPrimeFactors_(t *testing.T) {
+func TestPrimeFactors(t *testing.T) {
 
 }
