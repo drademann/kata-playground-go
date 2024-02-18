@@ -29,4 +29,8 @@ containing two words.
 
     Anagrams(input string) [][]string
 
+or
 
+    Anagrams(input string []Anagram
+
+as you wish.

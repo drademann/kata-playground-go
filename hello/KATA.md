@@ -11,9 +11,9 @@ __Remember__:
 
 ## Task
 
-Provide the following function
+Provide the following function:
 
     Greet()
 
-that will print the text "Hello, world!" to `stdout`. To keep it testable you might
-want to mock the display, it might be the time for an interface ...
+It shall print the text "Hello, world!" to `stdout`.
+To keep it testable, you might want to mock the output destination, it might be the time for an interface ...
