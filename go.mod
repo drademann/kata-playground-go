@@ -1,3 +1,3 @@
-module kata-playground-go
+module github.com/drademann/kata-playground-go
 
 go 1.22
