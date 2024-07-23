@@ -13,7 +13,7 @@ Hint: use the provided word list to find matches.
 __Remember__:
 
 - Do TDD.
-- Do one requirement at a time, do not read ahead.
+- Do one requirement at a time, don't read ahead.
 - Test first, there is no try.
 
 And for this Kata:
@@ -24,7 +24,7 @@ And for this Kata:
 
 ## Task
 
-You should provide a function that returns **all** two word anagrams of the input string as an array of arrays
+You should provide a function that returns **all** two-word anagrams of the input string as an array of arrays
 containing two words.
 
     Anagrams(input string) [][]string
