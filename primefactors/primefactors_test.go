@@ -1,4 +1,4 @@
-package primefactors
+package primefactors_test
 
 import "testing"
 

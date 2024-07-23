@@ -1,4 +1,4 @@
-package stringcalculator
+package stringcalculator_test
 
 import "testing"
 

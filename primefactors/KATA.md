@@ -1,13 +1,14 @@
 # The Prime Factors Kata
 
-This Kata from Robert Marting: [TDD Kata - Prime Factors](http://www.butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata)
+Robert Martin created this Kata:
+[TDD Kata Prime Factors](http://www.butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata)
 
-Step by step you are supposed to implement a function returns the prime factors of an integer.
+Step by step, you’re supposed to implement a function that returns the prime factors of an integer.
 
 __Remember__:
 
 - Do TDD.
-- Do one requirement at a time, do not read ahead.
+- Do one requirement at a time, don’t read ahead.
 - Test first, there is no try.
 
 ## Task

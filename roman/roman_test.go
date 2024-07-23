@@ -1,4 +1,4 @@
-package rnconv
+package rnconv_test
 
 import "testing"
 

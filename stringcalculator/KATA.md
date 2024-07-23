@@ -1,13 +1,14 @@
 # The String Calculator Kata
 
-This Kata was created by Roy Osherove: [TDD Kata - String Caluclator](http://osherove.com/kata)
+Roy Osherove created this Kata:
+[TDD Kata String Calculator](http://osherove.com/kata)
 
-Step by step you are supposed to implement a function that takes a string containing numbers and calculates their sum.
+Step by step, you’re supposed to implement a function that takes a string containing numbers and calculates their sum.
 
 __Remember__:
 
 - Do TDD.
-- Do one requirement at a time, do not read ahead.
+- Do one requirement at a time, don’t read ahead.
 - Test first, there is no try.
 
 ## Task
@@ -22,7 +23,7 @@ Provide the following function
 
        Add("") == 0
 
-2. The method returns the number given the string only contains a single number.
+2. The method returns the number when the string only contains a single number.
 
        Add("6") == 6
 
@@ -30,7 +31,7 @@ Provide the following function
 
        Add("1,2") == 3
 
-4. The method should deal with an arbitrary amount of numbers as well.
+4. The method should deal with an arbitrary number of numbers as well.
 
        Add("1,2,3,4,5") == 15
 
@@ -38,11 +39,14 @@ Provide the following function
 
        Add("1\n2,3") == 6
 
-6. Allow different delimiters. Given the input string starts with a comment line like `//[delim]\n[numbers...]`, then `delim` delimiter should work too: 
+6. Allow different delimiters.
+   Given the input string starts with a comment line like `//[delim]\n[numbers...]`,
+   then `delim` delimiter should work too:
 
        Add("//;\n1;2") == 3`
 
-7. If the input string contains a negative number, then throw an exception or return an error like `negatives not allowed` including the passed in negative number.
+7. If the input string contains a negative number, then throw an exception or return an error
+   like `negatives not allowed` including the passed in negative number.
 
        Add("-1,2,3") produces "negatives not allowed: -1"
 
@@ -50,15 +54,16 @@ Provide the following function
 
        Add("1,-2,-3") produces "negatives not allowed: -2, -3"
 
-9. Add a function to the calculator that returns the count how many times the `Add()` function was called. Implement it Test-First, the TDD way.
+9. Add a function to the calculator that returns the count how many times the `Add()` function was called.
+   Implement it test-first, the TDD way.
 
        int GetCalledCount()
 
-10. Numbers bigger than 1000 should be ignored.
+10. Ignore numbers bigger than 1000.
 
         Add("1,1001,2") == 3
 
-11. Allow delimiters of any length, like 
+11. Allow delimiters of any length, like
 
         "//[***]\n1***2***3" == 6
 
@@ -66,6 +71,6 @@ Provide the following function
 
         "//[*][&]\n1*2&3" == 6
 
-13. Ensure that delimiters of variable length are still supported, like 
+13. Still support delimiters of variable length, like
 
         "//[##][$]\n1$2##3" == 6
