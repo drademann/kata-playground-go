@@ -21,3 +21,8 @@ Provide the following function
 
 1. The method takes a single integer parameter
 2. and returns the prime factors of this integer in numerical order.
+
+## Hints
+
+See [Integer Factorization (Wikipedia)](https://en.wikipedia.org/wiki/Integer_factorization)
+for different algorithms available.
